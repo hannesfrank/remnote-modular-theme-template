@@ -1,11 +1,17 @@
-@import 'highlight-color.css';
+@import "highlight-color.css";
+@import "font-family.css";
 :root {
-    --highlight-color-red: #ef9a9a;
-    --highlight-color-yellow: #fff59d;
-    --highlight-color-orange: #ffcc80;
-    --highlight-color-green: #a5d6a7;
-    --highlight-color-blue: #90caf9;
-    --highlight-color-purple:#ce93d8;
-    
-    --highlight-border-radius: 3px;
+  /* Highlight */
+  --highlight-color-red: #ef9a9a;
+  --highlight-color-yellow: #fff59d;
+  --highlight-color-orange: #ffcc80;
+  --highlight-color-green: #a5d6a7;
+  --highlight-color-blue: #90caf9;
+  --highlight-color-purple: #ce93d8;
+
+  --highlight-border-radius: 3px;
+
+  /* Font*/
+
+  --font-body: Inter;
 }
