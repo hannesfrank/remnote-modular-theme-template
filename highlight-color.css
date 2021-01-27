@@ -1,0 +1,24 @@
+.highlight-color--red {
+    background-color: var(--highlight-color-red, red);
+    border-radius: var(--highlight-border-radius, 0px);
+  }
+  .highlight-color--yellow {
+    background-color: var(--highlight-color-yellow, yellow);
+    border-radius: var(--highlight-border-radius, 0px);
+  }
+  .highlight-color--orange {
+    background-color: var(--highlight-color-orange, orange);
+    border-radius: var(--highlight-border-radius, 0px);
+  }
+  .highlight-color--green {
+    background-color: var(--highlight-color-green, green);
+    border-radius: var(--highlight-border-radius, 0px);
+  }
+  .highlight-color--blue {
+    background-color: var(--highlight-color-blue, blue);
+    border-radius: var(--highlight-border-radius, 0px);
+  }
+  .highlight-color--purple {
+    background-color: var(--highlight-color-purple, purple);
+    border-radius: var(--highlight-border-radius, 0px);
+  }
