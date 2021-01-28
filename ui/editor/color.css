@@ -1,0 +1,67 @@
+/* Highlight Color */
+.highlight-color--red {
+  background-color: var(--highlight-color-red, red) !important;
+  border-radius: var(--highlight-border-radius, 0px);
+}
+.highlight-color--yellow {
+  background-color: var(--highlight-color-yellow, yellow) !important;
+  border-radius: var(--highlight-border-radius, 0px);
+}
+.highlight-color--orange {
+  background-color: var(--highlight-color-orange, orange) !important;
+  border-radius: var(--highlight-border-radius, 0px);
+}
+.highlight-color--green {
+  background-color: var(--highlight-color-green, green) !important;
+  border-radius: var(--highlight-border-radius, 0px);
+}
+.highlight-color--blue {
+  background-color: var(--highlight-color-blue, blue) !important;
+  border-radius: var(--highlight-border-radius, 0px);
+}
+.highlight-color--purple {
+  background-color: var(--highlight-color-purple, purple) !important;
+  border-radius: var(--highlight-border-radius, 0px);
+}
+
+/* Body Text */
+.multiple-windows__document,
+.rem-text,
+.document__top,
+.remHierarchyTop,
+#hierarchy-editor .TreeNode--dark-indent-line,
+#hierarchy-editor .TreeNodeLeftBorder,
+#document #actionRequiredDocumentTitle,
+#document .document-title,
+#document .document__top-bar,
+#multiple-windows .multiple-windows__document,
+#document-parents,
+#hierarchy-editor
+  #hierarchy-editor-list__sticky-top__container
+  #hierarchy-editor-list__sticky-top
+  .hierarchy-editor-list__sticky-top__rem-container,
+#document .message {
+  color: var(--font-body-color, #000);
+}
+
+/* Rem Text */
+.rem-reference-link {
+  color: var(--font-rem-color);
+}
+/* Header Text */
+/* .rem-header,
+.rem-header--1,
+.rem-header--2,
+.rem-header--3 {
+  color: #000;
+} */
+
+/* Highlight Text */
+.highlight-color--blue,
+.highlight-color--red,
+.highlight-color--green,
+.highlight-color--purple,
+.highlight-color--yellow,
+.highlight-color--orange {
+  color: #000;
+}
