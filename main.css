@@ -1,5 +1,7 @@
-@import "highlight-color.css";
-@import "font-family.css";
+@import "color.css";
+@import "font.css";
+@import "background.css";
+
 :root {
   /* Highlight */
   --highlight-color-red: #ef9a9a;
@@ -12,6 +14,13 @@
   --highlight-border-radius: 3px;
 
   /* Font*/
-
   --font-body: Inter;
+  --font-body-color: #d8cfbf;
+  --font-body-secondary-color: #ada698;
+  --font-rem-color: #d8a657;
+
+  /* Background*/
+  --background-main-color: #292828;
+  --background-secondary-color: #302f2f;
+  --background-selected-color: #3a3939;
 }

@@ -1,0 +1,4 @@
+#homepage #content #document-sidebar,
+#main #content #document-sidebar {
+  color: var(--font-body-color);
+}

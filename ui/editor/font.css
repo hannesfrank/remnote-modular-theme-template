@@ -1,0 +1,13 @@
+/* Editor Font */
+.rem-text {
+  font-family: var(--font-body, -apple-system);
+}
+
+/* Header Font */
+
+.rem-header,
+.rem-header--1,
+.rem-header--2,
+.rem-header--3 {
+  font-family: var(Arial, --font-body);
+}

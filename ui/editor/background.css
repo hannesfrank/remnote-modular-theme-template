@@ -1,0 +1,19 @@
+/* Editor Body Background */
+.multiple-windows__document,
+.rem-text,
+.document__top,
+.remHierarchyTop,
+#hierarchy-editor .TreeNode--dark-indent-line,
+#hierarchy-editor .TreeNodeLeftBorder,
+#document #actionRequiredDocumentTitle,
+#document .document-title,
+#document .document__top-bar,
+#multiple-windows .multiple-windows__document,
+#document-parents,
+#hierarchy-editor
+  #hierarchy-editor-list__sticky-top__container
+  #hierarchy-editor-list__sticky-top
+  .hierarchy-editor-list__sticky-top__rem-container,
+#document .message {
+  background-color: var(--background-main-color);
+}

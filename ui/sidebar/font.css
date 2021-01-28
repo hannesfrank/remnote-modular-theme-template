@@ -1,0 +1,5 @@
+/* Sidebar Font */
+#homepage #content #document-sidebar,
+#main #content #document-sidebar {
+  font-family: var(--font-body, -apple-system);
+}
