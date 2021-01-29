@@ -14,11 +14,11 @@ body .multiple-windows__document,
 #hierarchy-editor-list__inner > div,
 #hierarchy-editor,
 #DocumentTopRow {
-  background-color: var(--background-main-color, #fff);
+  background-color: var(--background-main-color);
 }
 
 .navigation-bar,
 .hierarchy-editor-toolbar-container--opened #hierarchy-editor-toolbar,
 #document .message {
-  background-color: var(--background-secondary-color, #fff);
+  background-color: var(--background-secondary-color);
 }
