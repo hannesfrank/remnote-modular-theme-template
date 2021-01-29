@@ -1,26 +1,26 @@
 /* Highlight Color */
 .highlight-color--red {
-  background-color: var(--highlight-color-red, red) !important;
+  background-color: var(--highlight-color-red, #ffdfe0) !important;
   border-radius: var(--highlight-border-radius, 0px);
 }
 .highlight-color--yellow {
-  background-color: var(--highlight-color-yellow, yellow) !important;
+  background-color: var(--highlight-color-yellow, #faf5bf) !important;
   border-radius: var(--highlight-border-radius, 0px);
 }
 .highlight-color--orange {
-  background-color: var(--highlight-color-orange, orange) !important;
+  background-color: var(--highlight-color-orange, #f5cda8) !important;
   border-radius: var(--highlight-border-radius, 0px);
 }
 .highlight-color--green {
-  background-color: var(--highlight-color-green, green) !important;
+  background-color: var(--highlight-color-green, #bee6bd) !important;
   border-radius: var(--highlight-border-radius, 0px);
 }
 .highlight-color--blue {
-  background-color: var(--highlight-color-blue, blue) !important;
+  background-color: var(--highlight-color-blue, #d0d9fb) !important;
   border-radius: var(--highlight-border-radius, 0px);
 }
 .highlight-color--purple {
-  background-color: var(--highlight-color-purple, purple) !important;
+  background-color: var(--highlight-color-purple, #d9cce9) !important;
   border-radius: var(--highlight-border-radius, 0px);
 }
 
@@ -41,12 +41,12 @@
   #hierarchy-editor-list__sticky-top
   .hierarchy-editor-list__sticky-top__rem-container,
 #document .message {
-  color: var(--font-body-color, #000);
+  color: var(--text-body-color, #000);
 }
 
 /* Rem Text */
 .rem-reference-link {
-  color: var(--font-rem-color);
+  color: var(--text-rem-color, #0231bf);
 }
 /* Header Text */
 /* .rem-header,
@@ -63,5 +63,10 @@
 .highlight-color--purple,
 .highlight-color--yellow,
 .highlight-color--orange {
-  color: #000;
+  color: var(--text-header-color, #000);
+}
+
+/* Breadcrum Text Color */
+a > span .RichTextViewer {
+  color: var(--text-body-color, #000);
 }
