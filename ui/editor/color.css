@@ -63,10 +63,10 @@
 .highlight-color--purple,
 .highlight-color--yellow,
 .highlight-color--orange {
-  color: var(--text-header-color, #000);
+  color: var(--text-header-color);
 }
 
 /* Breadcrum Text Color */
 a > span .RichTextViewer {
-  color: var(--text-body-color, #000);
+  color: var(--text-body-color);
 }

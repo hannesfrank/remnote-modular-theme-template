@@ -2,5 +2,5 @@
 #KnowledgeBaseButtons > button,
 #DocumentTable .ReactVirtualized__Table__headerRow,
 #DocumentTable .ReactVirtualized__Grid {
-  color: var(--text-body-color, #000);
+  color: var(--text-body-color);
 }
