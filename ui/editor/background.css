@@ -1,19 +1,24 @@
 /* Editor Body Background */
-.multiple-windows__document,
+body .multiple-windows__document,
 .rem-text,
 .document__top,
 .remHierarchyTop,
-#hierarchy-editor .TreeNode--dark-indent-line,
-#hierarchy-editor .TreeNodeLeftBorder,
-#document #actionRequiredDocumentTitle,
-#document .document-title,
-#document .document__top-bar,
+#document,
 #multiple-windows .multiple-windows__document,
 #document-parents,
 #hierarchy-editor
   #hierarchy-editor-list__sticky-top__container
   #hierarchy-editor-list__sticky-top
   .hierarchy-editor-list__sticky-top__rem-container,
+#document .message,
+#hierarchy-editor-list__inner > div,
+#hierarchy-editor,
+#DocumentTopRow {
+  background-color: var(--background-main-color, #fff);
+}
+
+.navigation-bar,
+.hierarchy-editor-toolbar-container--opened #hierarchy-editor-toolbar,
 #document .message {
-  background-color: var(--background-main-color);
+  background-color: var(--background-secondary-color, #fff);
 }

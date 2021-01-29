@@ -1,6 +1,18 @@
 /* Editor Font */
 .rem-text {
-  font-family: var(--font-body, -apple-system);
+  font-family: var(
+    --font-body,
+    apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol"
+  );
 }
 
 /* Header Font */
@@ -9,5 +21,17 @@
 .rem-header--1,
 .rem-header--2,
 .rem-header--3 {
-  font-family: var(Arial, --font-body);
+  font-family: var(
+    --font-body,
+    apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol"
+  );
 }

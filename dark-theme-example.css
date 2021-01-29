@@ -1,0 +1,26 @@
+@import "color.css";
+@import "font.css";
+@import "background.css";
+
+:root {
+  /* Highlight
+  --highlight-color-red: #ef9a9a;
+  --highlight-color-yellow: #fff59d;
+  --highlight-color-orange: #ffcc80;
+  --highlight-color-green: #a5d6a7;
+  --highlight-color-blue: #90caf9;
+  --highlight-color-purple: #ce93d8;
+
+  --highlight-border-radius: 3px;
+
+  /* Font*/
+  /* --font-body: Inter;
+  --text-body-color: #d8cfbf;
+  --text-rem-color: #d8a657;
+  --text-header-color: #000; */
+
+  /* Background*/
+  /* --background-main-color: #292828;
+  --background-secondary-color: #302f2f;
+  --background-selected-color: #3a3939;  */
+}

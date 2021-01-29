@@ -1,5 +1,17 @@
 /* Sidebar Font */
 #homepage #content #document-sidebar,
 #main #content #document-sidebar {
-  font-family: var(--font-body, -apple-system);
+  font-family: var(
+    --font-body,
+    apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Helvetica,
+    Arial,
+    sans-serif,
+    "Apple Color Emoji",
+    "Segoe UI Emoji",
+    "Segoe UI Symbol"
+  );
 }
