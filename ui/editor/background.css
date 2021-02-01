@@ -13,7 +13,8 @@ body .multiple-windows__document,
 #document .message,
 #hierarchy-editor-list__inner > div,
 #hierarchy-editor,
-#DocumentTopRow {
+#DocumentTopRow,
+#thinking-trail-history {
   background-color: var(--background-main-color);
 }
 

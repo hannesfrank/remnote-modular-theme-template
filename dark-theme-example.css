@@ -3,7 +3,7 @@
 @import "background.css";
 
 :root {
-  /* Highlight
+  /* Highlight */
   --highlight-color-red: #ef9a9a;
   --highlight-color-yellow: #fff59d;
   --highlight-color-orange: #ffcc80;
@@ -12,15 +12,14 @@
   --highlight-color-purple: #ce93d8;
 
   --highlight-border-radius: 3px;
-
   /* Font*/
-  /* --font-body: Inter;
+  --font-body: Inter;
   --text-body-color: #d8cfbf;
   --text-rem-color: #d8a657;
-  --text-header-color: #000; */
+  --text-header-color: #000;
 
   /* Background*/
-  /* --background-main-color: #292828;
+  --background-main-color: #292828;
   --background-secondary-color: #302f2f;
-  --background-selected-color: #3a3939;  */
+  --background-selected-color: #3a3939;
 }
