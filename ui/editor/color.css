@@ -67,6 +67,6 @@
 }
 
 /* Breadcrum Text Color */
-a > span .RichTextViewer {
+#document-parents .parent-link {
   color: var(--text-body-color);
 }
