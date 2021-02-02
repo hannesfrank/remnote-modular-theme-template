@@ -1,6 +1,6 @@
 - Modular Theme Template
   ```css
-  @import URL("");
+  @import URL("https://cdn.jsdelivr.net/gh/hannesfrank/remnote-modular-theme-template@main/main.css");
   ```
 - Theme
   - Editor
