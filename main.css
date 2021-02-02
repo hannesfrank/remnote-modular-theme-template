@@ -1,0 +1,154 @@
+#KnowledgeBasePage,
+#KnowledgeBaseButtons > button,
+#DocumentTable .ReactVirtualized__Table__headerRow,
+#DocumentTable .ReactVirtualized__Grid {
+  background-color: var(--background-main-color);
+}
+#KnowledgeBasePage,
+#KnowledgeBaseButtons > button,
+#DocumentTable .ReactVirtualized__Table__headerRow,
+#DocumentTable .ReactVirtualized__Grid {
+  color: var(--text-body-color);
+}
+/* Editor Body Background */
+body .multiple-windows__document,
+.rem-text,
+.document__top,
+.remHierarchyTop,
+#document,
+#multiple-windows .multiple-windows__document,
+#document-parents,
+#hierarchy-editor
+  #hierarchy-editor-list__sticky-top__container
+  #hierarchy-editor-list__sticky-top
+  .hierarchy-editor-list__sticky-top__rem-container,
+#document .message,
+#hierarchy-editor-list__inner > div,
+#hierarchy-editor,
+#DocumentTopRow,
+#thinking-trail-history {
+  background-color: var(--background-main-color);
+}
+
+.navigation-bar,
+.hierarchy-editor-toolbar-container--opened #hierarchy-editor-toolbar,
+#document .message {
+  background-color: var(--background-secondary-color);
+}
+/* Highlight Color */
+.highlight-color--red {
+  background-color: var(--highlight-color-red, #ffdfe0) !important;
+  border-radius: var(--highlight-border-radius, 0px);
+}
+.highlight-color--yellow {
+  background-color: var(--highlight-color-yellow, #faf5bf) !important;
+  border-radius: var(--highlight-border-radius, 0px);
+}
+.highlight-color--orange {
+  background-color: var(--highlight-color-orange, #f5cda8) !important;
+  border-radius: var(--highlight-border-radius, 0px);
+}
+.highlight-color--green {
+  background-color: var(--highlight-color-green, #bee6bd) !important;
+  border-radius: var(--highlight-border-radius, 0px);
+}
+.highlight-color--blue {
+  background-color: var(--highlight-color-blue, #d0d9fb) !important;
+  border-radius: var(--highlight-border-radius, 0px);
+}
+.highlight-color--purple {
+  background-color: var(--highlight-color-purple, #d9cce9) !important;
+  border-radius: var(--highlight-border-radius, 0px);
+}
+
+/* Body Text */
+.multiple-windows__document,
+.rem-text,
+.document__top,
+.remHierarchyTop,
+#hierarchy-editor .TreeNode--dark-indent-line,
+#hierarchy-editor .TreeNodeLeftBorder,
+#document #actionRequiredDocumentTitle,
+#document .document-title,
+#document .document__top-bar,
+#multiple-windows .multiple-windows__document,
+#document-parents,
+#hierarchy-editor
+  #hierarchy-editor-list__sticky-top__container
+  #hierarchy-editor-list__sticky-top
+  .hierarchy-editor-list__sticky-top__rem-container,
+#document .message {
+  color: var(--text-body-color, #000);
+}
+
+/* Rem Text */
+.rem-reference-link {
+  color: var(--text-rem-color, #0231bf);
+}
+/* Header Text */
+/* .rem-header,
+.rem-header--1,
+.rem-header--2,
+.rem-header--3 {
+  color: #000;
+} */
+
+/* Highlight Text */
+.highlight-color--blue,
+.highlight-color--red,
+.highlight-color--green,
+.highlight-color--purple,
+.highlight-color--yellow,
+.highlight-color--orange {
+  color: var(--text-header-color);
+}
+
+/* Breadcrum Text Color */
+#document-parents .parent-link {
+  color: var(--text-body-color);
+}
+/* Editor Font */
+.rem-text {
+  font-family: var(--font-body);
+}
+
+/* Header Font */
+
+.rem-header,
+.rem-header--1,
+.rem-header--2,
+.rem-header--3 {
+  font-family: var(--font-body);
+}
+/* Sidebar */
+#homepage #content #document-sidebar,
+#main #content #document-sidebar {
+  background-color: var(--background-secondary-color);
+}
+
+/* Sidebar secondary*/
+#DocumentationList .documentListNoDocuments,
+#documentList .documentListNoDocuments {
+  background-color: var(--background-secondary-color);
+}
+
+/* Sidebar Item selected */
+#DocumentationList .document-list-item--opened,
+#documentList .document-list-item--opened {
+  background-color: var(--background-selected-color);
+}
+
+/* Sidebar Item hovered */
+#DocumentationList .document-list-item:hover,
+#documentList .document-list-item:hover {
+  background-color: var(--background-selected-color);
+}
+#homepage #content #document-sidebar,
+#main #content #document-sidebar {
+  color: var(--text-body-color);
+}
+/* Sidebar Font */
+#homepage #content #document-sidebar,
+#main #content #document-sidebar {
+  font-family: var(--font-body);
+}
