@@ -119,6 +119,7 @@ body .multiple-windows__document,
   font-family:var(--doc-title-font,var(--font-body));
   font-size:var(--doc-title-size,25px);
   font-weight:var(--doc-title-weight,normal);
+  color:var(--doc-title-color,var(--text-body-color));
 }
 
 /* Highlight Text */
@@ -161,6 +162,7 @@ body .multiple-windows__document,
   font-family:var(--h1-font,var(--font-body));
   font-size:var(--h1-font-size,22px);
   font-weight:var(--h1-font-weight,700);
+  color:var(--h1-font-color,var(--text-body-color));
 }
 
 /* Heading 2 Styling */
@@ -168,6 +170,7 @@ body .multiple-windows__document,
   font-family:var(--h2-font,var(--font-body));
   font-size:var(--h2-font-size,20px);
   font-weight:var(--h2-font-weight,700);
+  color:var(--h2-font-color,var(--text-body-color));
 }
 
 /* Heading 3 Styling */
@@ -175,6 +178,7 @@ body .multiple-windows__document,
   font-family:var(--h3-font,var(--font-body));
   font-size:var(--h3-font-size,17px);
   font-weight:var(--h3-font-weight,700);
+  color:var(--h3-font-color,var(--text-body-color));
 }
 
 /* Sidebar */
