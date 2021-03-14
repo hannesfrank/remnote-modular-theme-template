@@ -88,7 +88,8 @@ body .multiple-windows__document,
   #hierarchy-editor-list__sticky-top__container
   #hierarchy-editor-list__sticky-top
   .hierarchy-editor-list__sticky-top__rem-container,
-#document .message {
+#document .message,
+#DocumentTable a, .black-links a {
   color: var(--text-body-color, #000);
 }
 
@@ -124,6 +125,17 @@ body .multiple-windows__document,
   font-size:var(--doc-title-size,25px);
   font-weight:var(--doc-title-weight,normal);
   color:var(--doc-title-color,var(--text-body-color));
+}
+
+/* Documents Table Title Text */
+#DocumentTable a, .black-links a,
+#DocumentTable a:hover, .black-links a:hover {
+  color:var(--text-body-color)!important;
+}
+
+/* Documents Table Hover */
+#DocumentTable .DocumentLink:hover {
+  background-color:var(--sidebar-hover-color);
 }
 
 /* Highlight Text */
@@ -221,6 +233,11 @@ body .multiple-windows__document,
 #homepage #content #document-sidebar #document-sidebar__document-buttons a,
 #main #content #document-sidebar #document-sidebar__document-buttons a {
   color: var(--sidebar-font-color)!important;
+}
+
+/* Sidebar Documents Link Selected Color */
+.document-sidebar__linkOpen {
+  background-color:var(--sidebar-hover-color)!important;
 }
 
 /* Sidebar Documents Item Hover */
