@@ -10,6 +10,7 @@
 #DocumentTable .ReactVirtualized__Grid {
   color: var(--text-body-color);
 }
+
 /* Editor Body Background */
 body .multiple-windows__document,
 .rem-text,
@@ -35,6 +36,7 @@ body .multiple-windows__document,
 #document .message {
   background-color: var(--background-secondary-color);
 }
+
 /* Highlight Color */
 .highlight-color--red {
   background-color: var(--highlight-color-red, #ffdfe0) !important;
@@ -112,6 +114,13 @@ body .multiple-windows__document,
   color: #000;
 } */
 
+/* Document Title */
+#DocumentTitle .document-title {
+  font-family:var(--doc-title-font,var(--font-body));
+  font-size:var(--doc-title-size,25px);
+  font-weight:var(--doc-title-weight,normal);
+}
+
 /* Highlight Text */
 .highlight-color--blue,
 .highlight-color--red,
@@ -133,12 +142,31 @@ body .multiple-windows__document,
 
 /* Header Font */
 
-.rem-header,
-.rem-header--1,
-.rem-header--2,
-.rem-header--3 {
+.rem-header {
   font-family: var(--font-body);
 }
+
+/* Heading 1 Styling */
+.rem-header--1 {
+  font-family:var(--h1-font,var(--font-body));
+  font-size:var(--h1-font-size,22px);
+  font-weight:var(--h1-font-weight,700);
+}
+
+/* Heading 2 Styling */
+.rem-header--2  {
+  font-family:var(--h2-font,var(--font-body));
+  font-size:var(--h2-font-size,20px);
+  font-weight:var(--h2-font-weight,700);
+}
+
+/* Heading 3 Styling */
+.rem-header--3 {
+  font-family:var(--h3-font,var(--font-body));
+  font-size:var(--h3-font-size,17px);
+  font-weight:var(--h3-font-weight,700);
+}
+
 /* Sidebar */
 #homepage #content #document-sidebar,
 #main #content #document-sidebar {
