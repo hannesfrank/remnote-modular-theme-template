@@ -122,13 +122,23 @@ body .multiple-windows__document,
 }
 
 /* Highlight Text */
-.highlight-color--blue,
-.highlight-color--red,
-.highlight-color--green,
-.highlight-color--purple,
-.highlight-color--yellow,
+.highlight-color--blue {
+  color:var(--highlight-text-color-blue,var(--text-header-color));
+}
+.highlight-color--red {
+  color:var(--highlight-text-color-red,var(--text-header-color));
+}
+.highlight-color--green {
+  color:var(--highlight-text-color-green,var(--text-header-color));
+}
+.highlight-color--purple {
+  color:var(--highlight-text-color-purple,var(--text-header-color));
+}
+.highlight-color--yellow {
+  color:var(--highlight-text-color-yellow,var(--text-header-color));
+}
 .highlight-color--orange {
-  color: var(--text-header-color);
+  color:var(--highlight-text-color-orange,var(--text-header-color));
 }
 
 /* Breadcrum Text Color */
