@@ -93,6 +93,12 @@ body .multiple-windows__document,
   color: var(--text-body-color, #000);
 }
 
+/* Body Text Size */
+.rem-text {
+  font-size:var(--text-size,14px);
+  font-weight:var(--text-weight,300);
+}
+
 /* Rem Text */
 .rem-reference-link {
   color: var(--text-rem-color, #0231bf);
