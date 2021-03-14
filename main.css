@@ -100,7 +100,8 @@ body .multiple-windows__document,
 }
 
 /* Tree Lines */
-#hierarchy-editor .TreeNode {
+#hierarchy-editor .TreeNode,
+#hierarchy-editor .indented-hierarchy-editor-rem {
   border-left-color: var(--tree-line-color);
   border-left-width: var(--tree-line-width);
   border-left-style: var(--tree-line-style);
