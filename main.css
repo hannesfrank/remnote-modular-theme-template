@@ -61,6 +61,12 @@ body .multiple-windows__document,
   border-radius: var(--highlight-border-radius, 0px);
 }
 
+/* gutter (page seperation) */
+.gutter.gutter-horizontal {
+  background-color:var(--gutter-color);
+  
+}
+
 /* Body Text */
 .multiple-windows__document,
 .rem-text,
@@ -85,6 +91,19 @@ body .multiple-windows__document,
 .rem-reference-link {
   color: var(--text-rem-color, #0231bf);
 }
+
+/* Rem Bullet */
+.rem-bullet,.rem-bullet--in-list {
+  background-color:var(--rem-bullet-color,rgb(75,75,75));
+}
+
+/* Tree Lines */
+#hierarchy-editor .TreeNode {
+  border-left-color: var(--tree-line-color);
+  border-left-width: var(--tree-line-width);
+  border-left-style: var(--tree-line-style);
+}
+
 /* Header Text */
 /* .rem-header,
 .rem-header--1,
