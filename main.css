@@ -249,3 +249,14 @@ body .multiple-windows__document,
 #main #content #document-sidebar {
   font-family: var(--font-body);
 }
+
+/* Search Portal links */
+#hierarchy-editor .rem-container--not-included-in-document-scope .notIncludedAncestorClickable {
+  color:var(--text-rem-color);
+ }
+
+/* Search Portal highlights */
+.searchKeywordHighlight {
+  color:var(--highlight-text-color-search,var(--text-body-color));
+  background-color:var(--highlight-color-search,rgba(255,255,0,0.5));
+}
