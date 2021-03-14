@@ -65,8 +65,11 @@ body .multiple-windows__document,
 
 /* gutter (page seperation) */
 .gutter.gutter-horizontal {
-  background-color:var(--gutter-color);
-  
+  background-color:var(--gutter-color); 
+}
+
+.gutter.gutter-horizontal:hover {
+  background-color:var(--gutter-hover-color,#3b7cc8);
 }
 
 /* Body Text */
