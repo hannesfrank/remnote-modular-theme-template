@@ -226,6 +226,11 @@ body .multiple-windows__document,
   color:var(--sidebar-font-color);
 }
 
+/* Sidebar Queue Indicator */
+#document-sidebar__link__queue-indicator {
+  background-color:var(--sidebar-hover-color,rgba(210,225,248,.35));
+}
+
 /* Sidebar Queue Link Hover */
 #document-sidebar__link:hover:not(.document-sidebar__linkOpen) {
   background-color:var(--sidebar-hover-color);
