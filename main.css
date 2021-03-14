@@ -98,6 +98,11 @@ body .multiple-windows__document,
   color: var(--text-rem-color, #0231bf);
 }
 
+/* Hyperlinks */
+.LinkNode {
+  color:var(--text-rem-color,#0231bf);
+}
+
 /* Rem Bullet */
 .rem-bullet,.rem-bullet--in-list {
   background-color:var(--rem-bullet-color,rgb(75,75,75));
