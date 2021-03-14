@@ -160,12 +160,39 @@ body .multiple-windows__document,
 /* Sidebar Item hovered */
 #DocumentationList .document-list-item:hover,
 #documentList .document-list-item:hover {
-  background-color: var(--background-selected-color);
+  background-color: var(--sidebar-hover-color);
 }
+
+/* Sidebar Item Text Color */
 #homepage #content #document-sidebar,
-#main #content #document-sidebar {
-  color: var(--text-body-color);
+#main #content #document-sidebar,
+#homepage #content #document-sidebar a, 
+#main #content #document-sidebar a {
+  color:var(--sidebar-font-color)!important;
 }
+
+/* Sidebar Documents Link Color */
+#homepage #content #document-sidebar #document-sidebar__document-buttons a,
+#main #content #document-sidebar #document-sidebar__document-buttons a {
+  color: var(--sidebar-font-color)!important;
+}
+
+/* Sidebar Documents Item Hover */
+#document-sidebar__document-buttons:hover:not(.document-sidebar__linkOpen) {
+  background-color: var(--sidebar-hover-color);
+}
+
+/* Sidebar Queue Link Color */
+#homepage #content #document-sidebar .document-sidebar__linkQueue,
+#main #content #document-sidebar .document-sidebar__linkQueue {
+  color:var(--sidebar-font-color);
+}
+
+/* Sidebar Queue Link Hover */
+#document-sidebar__link:hover:not(.document-sidebar__linkOpen) {
+  background-color:var(--sidebar-hover-color);
+}
+
 /* Sidebar Font */
 #homepage #content #document-sidebar,
 #main #content #document-sidebar {
